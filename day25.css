@@ -1,0 +1,206 @@
+.headr img{
+    width:80px;
+    height:auto;
+}
+.headr{
+    background-color: deepskyblue;
+}
+.primary-manu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-manu ul li{
+    display: inline-block;
+    list-style: none;
+    line-height: 50%;
+    margin-left: -4px;
+}
+.primary-manu ul li a{
+    padding: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    transition: .7s;
+    border-left: 1px solid #ddd;
+}
+.primary-manu ul li a:hover{
+
+    background-color: rgb(25, 125, 158);
+}
+.primary-manu ul li:nth-child(5) a{
+    border-right: 1px  solid #ddd;
+}
+
+
+.banar{
+    background-image: url(../day24/images\ \(8\).jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    padding: 200px 0;
+    background-position: bottom center;
+    
+}
+.banar-text{
+    margin: auto;
+}
+.banar-text h2{
+    font-size: 20px;
+    background-color: cornflowerblue;
+    padding:8px 0 ;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    
+    
+}
+.banar-text h3{
+    font-size: 20px;
+    background-color:
+     rgb(38, 53, 82);
+    padding:5px 0;
+    border-radius: 5px;
+    color: #fff;
+width: 250px;
+margin: auto;
+}
+.abaut{
+    text-align: center;
+    background-color:#f7f7f7;
+    padding: 20px 0;
+    
+}
+.abaut h3{}
+.abaut p{}
+
+.service{
+    background-color: #f9f9f9;
+}
+.card{
+    padding:0px 10px;
+}
+.service span{
+    background-color: darkturquoise;
+    display: inline-block;
+    height:35px ;
+    width:35px;
+    margin: auto;
+    line-height:35px;
+    border-radius: 10px 0 10px 0;
+    font-size: 20px;
+    color:#942f2fda;
+    margin-top: 5px;
+
+}
+img{
+    max-width: 100%;
+}
+.product-right{
+
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+    
+    display: block;
+    
+}
+.product-right ul li{
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.footer{
+    background-color: rgb(46, 37, 179);
+}
+.footer p{
+    color: #fff;
+    height: 10px;
+    
+}
+.footer ul{
+    list-style: none;
+    display: ;
+    height: 10px;
+    text-align: right;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    color: #fff;
+    line-height: 10px;
+    padding: 0px 10px;
+    
+}
+.opop{
+    background-color: blue;
+    padding: 100px  0px 100px 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+.opop::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 0;
+    width: 20%;
+    height: 20%;
+
+   
+background-image: url(./stars-5.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+animation: allop 1.6s ease-out infinite ;
+
+}
+.opop::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    right:0%;
+    width: 20%;
+    height: 20%;
+
+   
+background-image: url(./stars-5.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+animation: alloq 1.6s ease-out infinite ;
+
+}
+@keyframes allop{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transition:.1s;
+    }
+}
+@keyframes alloq{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    
+    }
+}
+
